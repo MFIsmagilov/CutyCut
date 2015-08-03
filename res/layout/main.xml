@@ -9,17 +9,5 @@
             android:layout_height="wrap_content"
             android:text="Hello World, MyActivity"
             />
-    <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/maratloh" android:text="Что за фигня"/>
-    <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText" android:text="А Марат лошарик :-)"/>
-    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editText"
-              android:text="Ты не правильно делаешь :D" android:layout_gravity="center_horizontal"/>
-    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editText"
-              android:text="и сам ты лошарик - смешарик))" android:layout_gravity="center_horizontal"/>
 </LinearLayout>
 
