@@ -12,6 +12,6 @@
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/maratloh" android:text="Марат лошара "/>
+            android:id="@+id/maratloh" android:text="Что за фигня"/>
 </LinearLayout>
 
