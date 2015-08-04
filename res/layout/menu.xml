@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical" android:weightSum="1">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/game"
+                android:onClick="startGameScreen"
+                android:id="@+id/btnStart" android:layout_gravity="center_horizontal" android:layout_weight="0.09"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings"
+                android:onClick="settingsScreen"
+                android:id="@+id/btnSetting" android:layout_gravity="center_horizontal" android:layout_weight="0.09"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/help"
+                android:onClick="helpScreen"
+                android:id="@+id/btnHelp" android:layout_gravity="center_horizontal" android:layout_weight="0.09"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exit"
+                android:onClick="exitScreen"
+                android:id="@+id/btnExit" android:layout_gravity="center_horizontal" android:layout_weight="0.09"/>
+    </LinearLayout>
+
+</RelativeLayout>
